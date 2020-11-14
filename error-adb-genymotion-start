@@ -1,0 +1,17 @@
+the adb version on your system is different from the adb version on the android sdk platform-tools
+link
+it works for me
+
+1 check sys adb version
+
+# adb version
+Android Debug Bridge version 1.0.39
+2 check sdk adb version
+
+# cd /Users/wan-mac/Library/Android/sdk/platform-tools
+# ./adb version
+Android Debug Bridge version 1.0.32
+3 copy
+
+# sudo cp /Users/wan-mac/Library/Android/sdk/platform-tools/adb /usr/local/bin
+that's all
